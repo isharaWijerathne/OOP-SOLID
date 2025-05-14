@@ -1,9 +1,12 @@
 
 public abstract class Payment {
     
-    public abstract void Payment(Order order,double payment, String cardNumber);
+    public abstract void Payment(Order order,double payment);
     
 }
+
+
+
 
 
 

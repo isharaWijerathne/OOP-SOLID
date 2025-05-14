@@ -13,9 +13,9 @@ public class Application {
 
         Order myOnlineOrder = new Order(2245, myProductCart);
 
-     //   Payment onlinePayment = new Payment();
+        Payment onlinePayment = new CardPayment("123487653463567");
 
-        //makePayment
-       // onlinePayment.CardPayment(myOnlineOrder, 2500, "1234567523549876");
+        // makePayment
+        onlinePayment.Payment(myOnlineOrder, 2500);
     }
 }
